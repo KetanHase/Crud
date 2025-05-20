@@ -29,7 +29,7 @@ const Home = () => {
 
         await axios.post('http://localhost:3000/user',data)
 
-        navigate('/adduser')
+        navigate('/userdata')
 
 
     }

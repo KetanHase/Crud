@@ -57,7 +57,7 @@ const Edituser = () => {
 
         await axios.put(`http://localhost:3000/user/${res.id}`, data)
 
-        navigate('/adduser')
+        navigate('/userdata')
 
 
 
@@ -75,12 +75,12 @@ const Edituser = () => {
                     <div className="row fw-bold">
                         <div className="col-md-12">
                             <label htmlFor="">Update Your Name</label>
-                            <input type="text" name="name" value={data.name} onChange={(e) => dataHandler(e)} className='form-control' placeholder='enter username' />
+                            <input type="text" name="name" value={data.name} onChange={(e) => dataHandler(e)} className='form-control' placeholder='Enter username' />
                         </div>
 
                         <div className="col-md-12 my-3">
                             <label htmlFor="">Update Your Email</label>
-                            <input type="email" name="email" value={data.email} onChange={(e) => dataHandler(e)} id="" className='form-control' placeholder='eg. john@gmail.com' />
+                            <input type="email" name="email" value={data.email} onChange={(e) => dataHandler(e)} id="" className='form-control' placeholder='eg. demo@gmail.com' />
                         </div>
                         
                         <div className="col-md-12 my-3">
