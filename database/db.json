@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "name": "Ketan H",
+      "skill": "React",
+      "email": "Ketan@gmail.com",
+      "mobile": "12345678909",
+      "id": 1
+    },
+    {
+      "name": "Ajay",
+      "email": "ajay@gmail.com",
+      "skill": "Express JS",
+      "mobile": "44564345678",
+      "id": 2
+    }
+  ]
+}
